@@ -1,0 +1,23 @@
+h1{
+
+  
+    width: 50%;
+    border: 2px solid black;
+}
+
+.outer{
+
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+}
+
+.inner{
+
+    height: 300px;
+    width: 300px;
+    border: 2px solid red; 
+    background-color: tomato;
+    /* margin-left: 50%; */
+    margin-left:200PX ;
+}

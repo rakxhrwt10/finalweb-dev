@@ -1,0 +1,117 @@
+#outerdiv{
+    border: 2px solid rgb(10, 10, 10);
+    padding: 20px;
+    margin: 20px;
+    height: 200px;
+
+    width: 70px;
+}
+/* .innerdiv{
+    border: 2px solid rgb(14, 14, 14);
+    padding: 20px;
+    margin: 20px;
+} */
+
+/* .innerdiv{
+
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+.y{
+
+    border: 2px solid yellow;
+    border-radius: 20px;
+
+}
+
+.g{
+
+    border: 2px solid green;
+    border-radius: 0px;
+} */
+
+.innerdiv{
+
+    border: 2px solid black;
+    border-radius: 1px;
+    margin: 10px;
+    padding: 0px;
+   height: 50px;
+   width: 50px;
+   border-radius: 50%;
+   
+}
+
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: yellow;
+}
+#green{
+    background-color: green;
+}
+
+
+
+
+#f{
+    
+    color: white;
+    height: 200px;
+    width: 500px;
+    border: 2PX solid rgb(15, 15, 15);
+}
+
+
+.flag{
+
+    border: 1px solid black;
+    /* background-color: blueviolet; */
+    /* margin: 20px; */
+    height: 66px;
+    width: 500px;
+    
+}
+#black{
+    background-color: #000000;
+
+
+
+}
+
+#redd{
+
+    background-color: #DD0000;
+}
+#orange{
+    background-color: #FFcc00;
+}
+
+
+#new{
+
+    height: 400px;
+    width: 5px;
+    border: 2px solid black;
+    background-color: black;
+    /* margin-top: 2; */
+}
+.brand{
+    /* text-align: center; */
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: skyblue;
+}
+p{
+    text-align: center;
+    margin-top: 25px;
+    font-weight: bold;
+    /* background-color: #DD0000; */
+}

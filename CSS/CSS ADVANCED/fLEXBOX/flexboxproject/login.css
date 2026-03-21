@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+
+    background-image: url(new.avif);
+    height: 100vh;
+    width: 100vw;
+
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.loginpage{
+
+    width: 50%;
+    height: 90%;
+    background-color: rgba(126, 126, 126, 0.645);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.logindetail{
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+
+    /* background-color: aqua; */
+
+    /* justify-content: space-between; */
+}
+
+/* .password{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    align-content: space-between; */
+
+
+.po{
+    /* background-color: aqua; */
+
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   width: 50%;
+   
+
+
+}
+
+h1{
+
+    font-size: 80px;
+}
+
+input[type="text"],input[type="password"]{
+
+    /* width: 100%;
+    height: 200%; */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+/* button{
+
+    border-radius: 5px;
+    width: 20%;
+    height: 10%;
+    background-color: rgba(111, 0, 255, 0.703);
+} */
+
+
+
+button {
+    padding: 15px 40px;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+
+    background: linear-gradient(135deg, #667eea, #764ba2);
+
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+
+
+input[type="text"],
+input[type="password"]:hover{
+
+
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+
+
+}
+
+
+
+
+
+/* 
+.bmw{
+
+    height: 100vh;
+
+    width: 300vh;
+
+    background-color: aliceblue;
+
+    background-image: url(new.avif);
+    background-size: cover;
+    filter: blur(8px);
+    overflow: hidden;
+    
+} */
+
+/* h1{
+    color: rgb(47, 255, 0);
+}
+
+.login{
+
+    height: 400px;
+    width: 500px;
+    background-color: rgb(233, 233, 233);
+    
+} */

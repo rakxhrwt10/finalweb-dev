@@ -1,0 +1,38 @@
+div{
+
+    height: 240px;
+    width: 200px;
+    background-color: bisque;
+
+    /* border-radius:30px ;
+    border-color:black ;
+    border-style:solid ; */
+    /* border: 5px solid black; */
+
+    border: 5px solid black;
+    /* border-radius: 50%; */
+
+    /* border-right-color:pink ;
+
+    border-bottom-color:violet ; */
+     border-radius:50% ;
+
+     border-top-right-radius: 500px;
+
+
+      
+}
+h1{
+
+    border-width:2px ;
+    border-style: dashed;
+    border-color:pink;
+}
+
+/* padding-property */
+
+div{
+
+    padding-right: 200px;
+    padding-left:20px ;
+}

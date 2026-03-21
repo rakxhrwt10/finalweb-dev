@@ -1,0 +1,22 @@
+h1{
+
+        color: #C44081;
+        background-color: bisque;
+        text-align: justify;
+}
+H1{
+
+    font-weight: 1;
+    text-decoration:pink  overline ;
+    
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    /* line-height: 0.2; */
+
+    letter-spacing: 50PX;
+}
+

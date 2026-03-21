@@ -1,0 +1,51 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1{
+
+    /* background-color: blue; */
+
+    width: 40%;
+    height: 90px;
+    background-color: burlywood;
+    color: aqua;
+} 
+
+
+@media (width:400px){
+
+
+    h1{
+
+
+        background-color: aquamarine;
+        color: antiquewhite;
+    }
+    
+}
+
+
+
+@media (min-width:500px){
+
+
+    .c{
+
+        background-color: black;
+        width: 100px;
+        height: 40px;
+    }
+}
+
+@media(min-width:500px) and (min-width:600px){
+
+    h1{
+
+        background-color: blueviolet;
+    }
+}

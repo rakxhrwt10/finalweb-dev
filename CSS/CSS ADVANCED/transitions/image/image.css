@@ -1,0 +1,23 @@
+div{
+
+    width: 400px;
+    height: 200px;
+    background-color: skyblue;
+    margin: 10px auto;
+    background-image: url(/HTML/photo-1728060838342-cb9744a27d1b.avif);
+    background-size: cover;
+    color: skyblue;
+    transition: 0.2s ease-in-out;
+    /* transition: width 2s ease-in-out, height 2s ease-in-out; */
+}
+
+div:hover{
+
+    /* width: 600px;
+    height: 400px;
+    background-color: lightgreen;
+    color: lightgreen; */
+
+    box-shadow: 10px 10px 20px black;
+
+}

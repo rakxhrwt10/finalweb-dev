@@ -1,0 +1,20 @@
+.box1 {
+
+    border: 10px solid black;
+    background-color: lightcoral;
+    padding-right: 50px;
+}
+
+
+button{
+    border: 9px solid black;
+    background-color: skyblue;
+    padding: 5px;
+    margin-top: 50px;
+    padding: 0 30px 0 30px ;
+    border-radius: 20px;
+}
+button:hover{
+    background-color: lightblue;
+    /* animation-duration: 2s; */
+}

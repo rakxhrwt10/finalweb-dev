@@ -1,0 +1,19 @@
+/* h1{
+
+    display: inline;
+    background-color: skyblue;
+
+} */
+
+/* span{
+    display: block;
+    background-color: lightgreen;
+} */
+ span{
+    background-color: lightgreen;
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    padding: 100px;
+    margin: 20px;
+ }

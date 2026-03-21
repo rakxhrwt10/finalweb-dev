@@ -1,0 +1,11 @@
+div{
+    background-color: lightcoral;
+    border: 10px solid black;
+    margin: 50px;
+    padding: 5px;
+    border-radius: 50px;
+
+}
+h1{
+    text-align: center;
+}

@@ -1,0 +1,57 @@
+/* Google Font (optional but recommended) */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Center Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card Design */
+.appframe {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(15px);
+    padding: 50px 60px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+    color: #fff;
+    transition: all 0.4s ease;
+}
+
+/* Hover Effect */
+.appframe:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* Heading */
+.appframe h1 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* Instruction Text */
+.h h3 {
+    font-weight: 400;
+    margin: 10px 0;
+    padding: 8px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+}
