@@ -89,6 +89,16 @@ const newpet=pet.slice(1,5)
 
 console.log(newpet);
 
+//delete
+
+let letters = ["a", "b", "c"];
+delete letters[1]; // "Delete" the element at index 1
+
+console.log(letters);       // ["a", empty, "c"]
+console.log(letters[2]);    // undefined
+console.log(letters.length); // 3 (The length did NOT change!)
+
+
 
 
 
