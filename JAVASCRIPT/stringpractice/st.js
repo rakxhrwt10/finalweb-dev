@@ -32,3 +32,18 @@ for (let a = 0; a < arr.length; a++) {
 
 }
 
+// //string operation 
+
+// // arr2.toUpperCase
+// // arr2.uppercase
+// // arr2.length
+
+
+
+// toUpperCase()
+// trim()
+// slice()
+// replace()
+// split()
+// includes()
+
