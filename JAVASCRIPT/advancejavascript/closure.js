@@ -136,14 +136,22 @@ let userclass={
 
 
           return this.balance
-        
 
         }
+    },
 
 
-        
+WithDraw:function(amount){
 
+    if(typeof amount =="number" && amount>0 && this.balance>=amount )
 
+        {
+  this.balance-=amount
+  return this.balance
+        }    
+    },
+    getbalance:function(){
+       return this.balance
     }
 }
 
@@ -152,3 +160,53 @@ userclass.deposit(200)
 userclass.deposit("class")
 
 console.log(userclass.deposit(5000))
+
+
+console.log(userclass.WithDraw(5000))
+
+console.log(userclass.WithDraw(500))
+
+console.log(userclass.getbalance())
+
+userclass.balance="hellomnetochangekrdiyatujh"
+
+console.log(userclass.getbalance())
+
+// method ko acces(function)
+//balance :usko directly access na ho
+//next file mai hai
+
+
+
+
+function dauble(num){
+
+return function multiply(){
+
+    let array=[1,2,3,4,5,6,7,8,9,10]
+    let result=[]
+
+    for (arr of array){
+
+     result.push(arr*num)
+
+    }
+
+    return result
+   
+
+
+     
+}
+
+// return multiply()
+
+}
+
+
+const n=dauble(15)
+console.log(n());
+
+
+
+
