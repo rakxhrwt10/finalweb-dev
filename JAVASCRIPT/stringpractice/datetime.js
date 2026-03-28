@@ -29,4 +29,10 @@ console.log(now);
 console.log(date.toDateString());
 
 
+new Date(2025, 0, 1);  // January 1, 2025 (month is 0-indexed)
+new Date(2025, 11, 25); // December 25, 2025 (11 = December!)
+// This is confusing and error-prone!
+
+
+
 
