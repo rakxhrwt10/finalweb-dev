@@ -194,4 +194,9 @@ console.log("Combined Reports Departments:", combinedReport.length);  // 2
 
 show(reports)
 
+//  git add .
+//  git commit -m "new update"
+// git push
+// git remote add origin 
+
 
