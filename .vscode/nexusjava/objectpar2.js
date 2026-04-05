@@ -79,3 +79,13 @@ console.log(instructor);
     {},
     {}
 ]
+const {price:p}=course
+
+console.log(p);
+
+
+
+const navbar = ({company})=>{
+
+
+}
